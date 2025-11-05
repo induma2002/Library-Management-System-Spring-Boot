@@ -1,7 +1,8 @@
 name: ci-cd
 on:
   push:
-    branches: [ "master" ]   # change if your default branch is different
+    branches: [ "master" ]   # 👈 changed from main to master
+
 
 jobs:
   build_and_push_image:
