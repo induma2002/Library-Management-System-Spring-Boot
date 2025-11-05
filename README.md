@@ -52,7 +52,7 @@ Build the image:
 docker build -t library-api .
 ```
 
-Run the container:
+Run the container (publishes container port 8080 to host 8080):
 ```bash
 docker run --rm -p 8080:8080 library-api
 ```
